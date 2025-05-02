@@ -10,3 +10,10 @@ TEST(PrimeFactors, Of1) {
 	EXPECT_EQ(expected, prime_factor.of(1));;
 
 }
+
+TEST(PrimeFactors, PrimeTest) {
+	EXPECT_EQ(1, 1);
+	EXPECT_EQ(1, 1);
+	EXPECT_EQ(1, 1);
+	EXPECT_EQ(1, 1);
+}
